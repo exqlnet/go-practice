@@ -21,9 +21,9 @@ func main() {
 
 func getNotZeroCount(n byte) int {
 	count := 0
-	for ; n!=0; {
-		if n & 1 > 0 {
-			count ++
+	for n != 0 {
+		if n&1 > 0 {
+			count++
 		}
 		n >>= 1
 	}

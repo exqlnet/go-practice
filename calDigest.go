@@ -17,7 +17,7 @@ func main() {
 		if t == s {
 			break
 		}
-		if i == len(supports) - 1 {
+		if i == len(supports)-1 {
 			t = defaultType
 		}
 	}
@@ -26,7 +26,6 @@ func main() {
 
 	var in string
 	_, _ = fmt.Scanln(&in)
-
 
 	switch t {
 	case "sha256":
